@@ -6,4 +6,4 @@ filename="/tmp/meetup_$dt.json"
 
 mv "/tmp/meetup.json" $filename
 
-aws s3 mv $filename $1
+/root/.local/bin/aws s3 mv $filename $1exit
