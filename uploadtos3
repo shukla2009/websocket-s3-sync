@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "will upload file $1"
+dt=$(date '+%Y%m%d%H%M%S')
+filename="/tmp/meetup_$dt.json"
+
+mv "/tmp/meetup.json" $filename
+
+aws s3 mv $filename $1

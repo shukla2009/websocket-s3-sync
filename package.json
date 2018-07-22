@@ -1,0 +1,21 @@
+{
+  "name": "websocket-s3-sync",
+  "version": "1.0.0",
+  "description": "Store output of wbsocket to s3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "keywords": [
+    "wensocket",
+    "s3"
+  ],
+  "author": "Rahul Shukla <shukla2009@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^1.2.1",
+    "shelljs": "^0.8.2",
+    "websocket-stream": "^5.1.2"
+  }
+}
